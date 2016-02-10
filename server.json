@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"       : "api-app",
+    "script"     : "index.js",
+    "instances"  : 1,
+    "error_file" : "./logs/server-err.log",
+    "out_file"   : "./logs/server-out.log",
+    "pid_file"   : "./logs/server.pid"
+  }]
+}

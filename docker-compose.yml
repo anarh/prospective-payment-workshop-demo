@@ -1,0 +1,15 @@
+form-api:
+  ports:
+    - "8080"
+  restart: always
+  links:
+    - mongo:mongo
+  build: ./
+  env_file:
+    - .env
+
+mongo:
+  restart: always
+  image: mongo:2.6
+  ports:
+    - "27017"

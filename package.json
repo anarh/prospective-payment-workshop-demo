@@ -1,0 +1,27 @@
+{
+  "name": "prospective-payment-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start server.json",
+    "stop":"pm2 stop server.json",
+    "delete": "pm2 delete server.json",
+    "logs": "pm2 logs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repo.advisory.com/projects/CRUX/repos/prospective-payment-api"
+  },
+  "author": "Emmanuel Narh",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.0.1",
+    "express": "^4.0.0",
+    "express-list-routes": "^0.1.4",
+    "lodash": "^3.10.1",
+    "mongoose": "^4.1.8",
+    "morgan": "^1.0.0",
+    "nodemon": "^1.8.1",
+    "pm2": "^1.0.0"
+  }
+}
