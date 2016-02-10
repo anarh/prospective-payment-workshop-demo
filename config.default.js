@@ -7,6 +7,7 @@ var config = {
   use_mongo: true,
   api_url_payment: '/payments-api',
   api_url_bootcamp: '/bootcamp-api',
+  api_url_todo: '/todo-api',
   mongo_db: 'cms-data',
   mongo_port: '27017',
   mongo_url: 'localhost',

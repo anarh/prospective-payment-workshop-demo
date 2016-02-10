@@ -15,7 +15,8 @@ var enableCors = require('./lib/enable-cors');
 
 var apis = {
   payments: require('./app/payments-api')(config.api_url_payment),
-  bootcamp: require('./app/bootcamp-api')(config.api_url_bootcamp)
+  bootcamp: require('./app/bootcamp-api')(config.api_url_bootcamp),
+  todo: require('./app/todo-api')(config.api_url_todo)
 };
 
 app.use(enableCors);
@@ -31,6 +32,7 @@ router.get('/', function (req, res) {
 
 app.use('/', apis.payments);
 app.use('/', apis.bootcamp);
+app.use('/', apis.todo);
 app.use('/', router);
 
 app.listen(config.port);
