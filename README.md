@@ -1,7 +1,4 @@
-# Form API Microservice POC
-
-- Raw version of API Documentation here [Raw Documentation](https://repo.advisory.com/projects/CRUX/repos/forms-api-microservice/browse/README-api.md)
-- Pretty version of API Documentation here: [Formatted Documentation](http://docs.formbuilderapi.apiary.io/#)
+# Prospective Payment API
 
 ## Requirements
 
